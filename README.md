@@ -26,20 +26,24 @@
 Draw Endpoint'ine Erişim Sağlama:
 
 İlk olarak, Draw Endpoint altında bulunan /api/Draws adresine gidiniz.
+
 1.Grupların Büyüklüğünü Belirleme:
 
 Açılan sayfada, groupCount parametresi için 4 ila 8 arasında bir değer giriniz. Bu değer, oluşturulacak grupların büyüklüğünü belirleyecektir.
-Kura Çekme İşlemi İçin Picker Seçimi:
+
+2.Kura Çekme İşlemi İçin Picker Seçimi:
 
 Kurayı çekecek kişinin Idsini giriniz. Bunun için:
-Yeni bir Picker oluşturmak üzere Picker bölümüne gidip gerekli bilgileri doldurabilirsiniz.
-Alternatif olarak, mevcut bir Picker'ın Idsini de seçebilirsiniz.
-Kura Adını Girme:
+Yeni bir Picker oluşturmak üzere Picker bölümüne gidip gerekli bilgileri doldurabilir ve yeni bir picker oluşturup Id'sini kullanabilirsiniz.
+Alternatif olarak, mevcut bir Picker'ın Idsini de seçebilirsiniz. (mevcut picker Id = 1)
+
+3.Kura Adını Girme:
 
 drawName alanına, kura için uygun bir isim giriniz. Bu isim, kura çekim sürecinin tanımlanmasına yardımcı olacaktır.
-Kura Çekme İşlemi:
 
-Tüm gerekli bilgileri doldurduktan sonra, kurayı çekmek için ilgili butona tıklayarak işlemi gerçekleştirebilirsiniz.
+4.Kura Çekme İşlemi:
+
+Tüm gerekli bilgileri doldurduktan sonra, kurayı çekmek için ilgili butona tıklayarak işlemi gerçekleştirip Responsu görebilirsiniz.
 
 
 # Projenin Kapsamı ve Kullanılan Teknolojiler 
