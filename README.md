@@ -79,11 +79,11 @@ Adesso World League projesinde, verilerin organize bir şekilde depolanması ve 
 
 ## Veritabanı Tabloları 
 
-1.Teams (Takımlar) 
+### 1.Teams (Takımlar) 
 
-Tanım: Bu tablo, ligde yarışan takımlara ait bilgileri saklayacaktır. 
+#### Tanım: Bu tablo, ligde yarışan takımlara ait bilgileri saklayacaktır. 
 
-Alanlar:  
+#### Alanlar:  
 
 TeamID (int, Primary Key): Takımın benzersiz kimliği. 
 
@@ -99,11 +99,11 @@ DeletedDate (datetime, Nullable): Kayıt silinme tarihi.
 
  
 
-2. Countries (Ülkeler) 
+### 2. Countries (Ülkeler) 
 
-Tanım: Bu tablo, ligdeki takımların ait olduğu ülkelerin bilgilerini saklayacaktır. 
+#### Tanım: Bu tablo, ligdeki takımların ait olduğu ülkelerin bilgilerini saklayacaktır. 
 
-Alanlar: 
+#### Alanlar: 
 
 CountryID (int, Primary Key): Ülkenin benzersiz kimliği. 
 
@@ -117,11 +117,11 @@ DeletedDate (datetime, Nullable): Kayıt silinme tarihi.
 
  
 
-3.Groups (Gruplar) 
+### 3.Groups (Gruplar) 
 
-Tanım: Bu tablo, oluşturulan grupların bilgilerini içerecektir. 
+#### Tanım: Bu tablo, oluşturulan grupların bilgilerini içerecektir. 
 
-Alanlar: 
+#### Alanlar: 
 
 GroupID (int, Primary Key): Grup kimliği  
 
@@ -134,11 +134,11 @@ UpdatedDate (datetime, Nullable): Kayıt güncellenme tarihi.
 DeletedDate (datetime, Nullable): Kayıt silinme tarihi. 
 
 
-4.GroupTeams (Grup-Takım İlişkisi) 
+### 4.GroupTeams (Grup-Takım İlişkisi) 
 
-Tanım: Bu tablo, hangi takımların hangi grupta yer aldığını ve kura çekimine ait olduğu bilgisini içerecektir. 
+#### Tanım: Bu tablo, hangi takımların hangi grupta yer aldığını ve kura çekimine ait olduğu bilgisini içerecektir. 
 
-Alanlar: 
+#### Alanlar: 
 
 TeamID (int, Foreign Key): Takımlar tablosundan referans. 
 
@@ -154,7 +154,7 @@ DeletedDate (datetime, Nullable): Kayıt silinme tarihi.
 
  
 
-İlişki: 
+#### İlişki: 
 
 GroupID, Groups tablosuna (1-N ilişkisi). 
 
@@ -169,11 +169,11 @@ UpdatedDate (datetime, Nullable): Kayıt güncellenme tarihi.
 DeletedDate (datetime, Nullable): Kayıt silinme tarihi. 
 
  
-5.Draws (Kura Sonuçları) 
+### 5.Draws (Kura Sonuçları) 
 
-Tanım: Bu tablo, kura çekimi sonuçlarının kaydedileceği alandır. 
+#### Tanım: Bu tablo, kura çekimi sonuçlarının kaydedileceği alandır. 
 
-Alanlar: 
+#### Alanlar: 
 
 DrawID (int, Primary Key): Kuranın benzersiz kimliği. 
 
@@ -191,11 +191,11 @@ DeletedDate (datetime, Nullable): Kayıt silinme tarihi.
 
  
 
-6.Pickers (Kura Çeken Kişiler) 
+### 6.Pickers (Kura Çeken Kişiler) 
 
-Tanım: Bu tablo, kura çeken kişilerin bilgilerini içerecektir. 
+#### Tanım: Bu tablo, kura çeken kişilerin bilgilerini içerecektir. 
 
-Alanlar: 
+#### Alanlar: 
 
 Id (int, Primary Key): Kura çeken kişinin benzersiz kimliği. 
 
