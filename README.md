@@ -12,7 +12,7 @@
 
 5.Veri Tabanına Erişim: Oluşturduğunuz veri tabanına erişim sağlamak için SQL Server Object Explorer aracını kullanabilirsiniz.
 
-6.Not: Veri setleri, Persistence katmanındaki konfigürasyon dosyaları aracılığıyla otomatik olarak seed işlemleri ile oluşturulmuştur. (Takım ve ülke bilgileri)
+6.Not: Veri setleri, Persistence katmanındaki konfigürasyon dosyaları aracılığıyla otomatik olarak seed işlemleri ile oluşturulmuştur. (Team, Country, Group ve Picker bilgileri)
 ## 2. Derleme ve Çalıştırma
 
 1.Proje Ayarları: İlk olarak, WebApi projesine sağ tıklayarak bu projeyi başlangıç projesi olarak seçiniz.
