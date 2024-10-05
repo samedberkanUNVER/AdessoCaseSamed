@@ -44,31 +44,31 @@ Tüm gerekli bilgileri doldurduktan sonra, kurayı çekmek için ilgili butona t
 
 # Projenin Kapsamı ve Kullanılan Teknolojiler 
 
-#### 1. .NET Core: 
+### 1. .NET Core: 
 
 Projenin temel geliştirme platformu olarak yalnızca .NET Core kullanılacaktır. 
 
-2. ASP.NET Core Web API: 
+### 2. ASP.NET Core Web API: 
 
 Projenin kullanıcı arayüzü ile arka uç arasında bir iletişim köprüsü kurmak için ASP.NET Core Web API kullanılacaktır. 
 
 RESTful mimari prensiplerine uygun olarak tasarlanacak ve HTTP istekleri üzerinden veri alışverişi yapılacaktır. 
 
-3. Entity Framework Core: 
+### 3. Entity Framework Core: 
 
 Veritabanı işlemleri için Entity Framework Core kullanılacaktır. Bu, veritabanıyla etkileşimde bulunmayı ve veri yönetimini kolaylaştırır. ORM (Object-Relational Mapping) yetenekleri sayesinde, veritabanındaki verilerle nesne tabanlı bir yaklaşım kullanarak işlem yapmamıza olanak tanır. 
 
-4. MSSQL: 
+### 4. MSSQL: 
 
 Verilerin depolanması için Microsoft SQL Server kullanılacaktır.  
 
 MSSQL, ilişkisel bir veritabanı yönetim sistemi (RDBMS) olarak, verilerin tablo şeklinde yapılandırılmasına ve bu tablolar arasında ilişkilerin kurulmasına olanak tanır. 
 
-5. MediatR: 
+### 5. MediatR: 
 
 Projede, uygulama içindeki iletişimi ve sorgu yönetimini basitleştirmek amacıyla MediatR kütüphanesi kullanılacaktır.  
 
-6. JSON: 
+### 6. JSON: 
 
 API ile yapılan veri alışverişlerinde JSON formatı kullanılacaktır. JSON, hafif yapısı ve kolay okunabilirliği ile API yanıtlarını ve isteklerini yönetmek için ideal bir veri formatıdır. 
 
