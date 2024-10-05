@@ -44,7 +44,7 @@ Tüm gerekli bilgileri doldurduktan sonra, kurayı çekmek için ilgili butona t
 
 # Projenin Kapsamı ve Kullanılan Teknolojiler 
 
-1. .NET Core: 
+#### 1. .NET Core: 
 
 Projenin temel geliştirme platformu olarak yalnızca .NET Core kullanılacaktır. 
 
