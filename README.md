@@ -1,6 +1,6 @@
 # Adesso World League Uygulama Adımları
 
-## 2. Gerekli konfigurasyonlar ve Veri tabanı oluşturma
+## 1. Gerekli konfigurasyonlar ve Veri tabanı oluşturma
 
 1.Bağlantı Dizesini Düzenleme: appsettings klasörü içerisinde, yerel sisteminizde çalıştırmak istediğiniz veri tabanına ait bağlantı dizesini uygun şekilde güncelleyiniz.
 
@@ -13,7 +13,7 @@
 5.Veri Tabanına Erişim: Oluşturduğunuz veri tabanına erişim sağlamak için SQL Server Object Explorer aracını kullanabilirsiniz.
 
 6.Not: Veri setleri, Persistence katmanındaki konfigürasyon dosyaları aracılığıyla otomatik olarak seed işlemleri ile oluşturulmuştur. (Takım ve ülke bilgileri)
-## 3. Derleme ve Çalıştırma
+## 2. Derleme ve Çalıştırma
 
 1.Proje Ayarları: İlk olarak, WebApi projesine sağ tıklayarak bu projeyi başlangıç projesi olarak seçiniz.
 
@@ -22,7 +22,7 @@
 3.Swagger UI: Uygulama başlatıldığında, Swagger UI arayüzü ile karşılaşacaksınız.
 
 
-## 4. SİMÜLASYON
+## 3. SİMÜLASYON
 Draw Endpoint'ine Erişim Sağlama:
 
 İlk olarak, Draw Endpoint altında bulunan /api/Draws adresine gidiniz.
