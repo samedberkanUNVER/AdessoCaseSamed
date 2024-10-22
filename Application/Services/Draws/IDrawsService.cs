@@ -1,3 +1,4 @@
+using Application.Features.Draws.Commands.Create;
 using Application.Services.Repositories;
 using Core.Persistence.Paging;
 using Domain.Entities;
@@ -8,4 +9,5 @@ namespace Application.Services.Draws;
 
 public interface IDrawsService : IServiceRepositoryBase<Draw>
 {
+    Task<CreatedRealDrawResponse> CreateRealDraw(CreateRealDrawCommand request, CancellationToken cancellationToken);
 }

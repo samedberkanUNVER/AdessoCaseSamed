@@ -6,5 +6,6 @@ public class CreateDrawCommandValidator : AbstractValidator<CreateDrawCommand>
 {
     public CreateDrawCommandValidator()
     {
+        RuleFor(d => d.GroupCount).NotEmpty();
     }
 }

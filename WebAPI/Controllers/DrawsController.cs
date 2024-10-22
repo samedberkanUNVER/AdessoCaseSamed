@@ -14,10 +14,18 @@ namespace WebAPI.Controllers;
 [ApiController]
 public class DrawsController : BaseController
 {
+    [HttpPost("RealDraw")]
+    public async Task<IActionResult> AddRealDraw([FromBody] CreateRealDrawCommand createRealDrawCommand)
+    {
+        CreatedRealDrawResponse response = await Mediator.Send(createRealDrawCommand);
+
+        return Created(uri: "", response);
+    }
+
     [HttpPost]
     public async Task<IActionResult> Add([FromBody] CreateDrawCommand createDrawCommand)
     {
-        CreatedDrawResponse response = await Mediator.Send(createDrawCommand);
+        CreatedRealDrawResponse response = await Mediator.Send(createDrawCommand);
 
         return Created(uri: "", response);
     }

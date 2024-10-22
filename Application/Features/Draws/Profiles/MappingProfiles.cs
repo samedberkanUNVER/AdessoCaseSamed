@@ -16,7 +16,7 @@ public class MappingProfiles : Profile
     public MappingProfiles()
     {
         CreateMap<Draw, CreateDrawCommand>().ReverseMap();
-        CreateMap<Draw, CreatedDrawResponse>().ReverseMap();
+        CreateMap<Draw, CreatedRealDrawResponse>().ReverseMap();
 
         CreateMap<Draw, PickAllDrawsCommand>().ReverseMap();
         CreateMap<IPaginate<Draw>, GetListResponse<CreatedDrawAllResponse>>().ReverseMap();
@@ -29,6 +29,8 @@ public class MappingProfiles : Profile
         CreateMap<Draw, GetByIdDrawResponse>().ReverseMap();
         CreateMap<Draw, GetListDrawListItemDto>().ReverseMap();
         CreateMap<IPaginate<Draw>, GetListResponse<GetListDrawListItemDto>>().ReverseMap();
-       
+
+        CreateMap<Draw, CreateRealDrawCommand>().ReverseMap();
+
     }
 }
